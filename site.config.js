@@ -1,31 +1,31 @@
 const CONFIG = {
   // profile setting (required)
   profile: {
-    name: "morethanmin",
-    image: "/avatar.svg", // If you want to create your own notion avatar, check out https://notion-avatar.vercel.app
-    role: "frontend developer",
-    bio: "I develop everything using node.",
-    email: "morethanmin.dev@gmail.com",
-    linkedin: "morethanmin",
-    github: "morethanmin",
-    instagram: "",
+    name: "Rin Linin",
+    image: "/avatar.png", // If you want to create your own notion avatar, check out https://notion-avatar.vercel.app
+    role: "Watercolor Artist",
+    bio: "I draw anime art with watercolor",
+    email: "alartyrlinnil@gmail.com",
+    instagram: "lininart",
+    github: "",
+    linkedin: "",
   },
   projects: [
     {
-      name: `morethan-log`,
-      href: "https://github.com/morethanmin/morethan-log",
+      name: `linin-art-blog`,
+      href: "https://github.com/linnilsupak/linin-art-blog",
     },
   ],
   // blog setting (required)
   blog: {
-    title: "morethan-log",
-    description: "welcome to morethan-log!",
-    theme: "light", // ['light', 'dark', 'auto']
+    title: "Rin Linin",
+    description: "welcome to Rin Linin - blog!",
+    theme: "auto", // ['light', 'dark', 'auto']
   },
 
   // CONFIG configration (required)
-  link: "https://morethan-log.vercel.app",
-  since: 2022, // If leave this empty, current year will be used.
+  link: "https://linin-art.vercel.app/",
+  since: 2023, // If leave this empty, current year will be used.
   lang: "en-US", // ['en-US', 'zh-CN', 'zh-HK', 'zh-TW', 'ja-JP', 'es-ES', 'ko-KR']
   ogImageGenerateURL: "https://og-image-korean.vercel.app", // The link to generate OG image, don't end with a slash
   seo: {
@@ -53,7 +53,7 @@ const CONFIG = {
   utterances: {
     enable: true,
     config: {
-      repo: "morethanmin/morethan-log",
+      repo: "linnilsupak/linin-art-blog",
       "issue-term": "og:title",
       label: "💬 Utterances",
     },
