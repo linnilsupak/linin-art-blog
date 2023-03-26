@@ -1,7 +1,7 @@
 const CONFIG = {
   // profile setting (required)
   profile: {
-    name: "Rin Linin",
+    name: "Rin Linin Art",
     image: "/avatar.png", // If you want to create your own notion avatar, check out https://notion-avatar.vercel.app
     role: "Watercolor Artist",
     bio: "I draw anime art with watercolor",
