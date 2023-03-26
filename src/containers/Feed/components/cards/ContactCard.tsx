@@ -5,6 +5,9 @@ import {
   AiOutlineGithub,
   AiOutlineMail,
   AiFillLinkedin,
+  AiOutlineYoutube,
+  AiFillTwitterSquare,
+  AiTwotoneHeart,
 } from "react-icons/ai"
 
 const ContactCard: React.FC = () => {
@@ -23,6 +26,17 @@ const ContactCard: React.FC = () => {
             <div className="text-sm">github</div>
           </a>
         )}
+        {CONFIG.profile.youtube && (
+          <a
+            href={`https://www.youtube.com/@${CONFIG.profile.youtube}`}
+            rel="noreferrer"
+            target="_blank"
+            className="p-3 hover:bg-gray-100 dark:hover:bg-zinc-700 rounded-2xl cursor-pointer flex items-center gap-3 text-gray-500 dark:text-white hover:text-black dark:hover:text-white"
+          >
+            <AiOutlineYoutube className="text-2xl" />
+            <div className="text-sm">Youtube</div>
+          </a>
+        )}
         {CONFIG.profile.instagram && (
           <a
             href={`https://www.instagram.com/${CONFIG.profile.instagram}`}
@@ -32,6 +46,28 @@ const ContactCard: React.FC = () => {
           >
             <AiOutlineInstagram className="text-2xl" />
             <div className="text-sm">instagram</div>
+          </a>
+        )}
+        {CONFIG.profile.twitter && (
+          <a
+            href={`https://twitter.com/${CONFIG.profile.twitter}`}
+            rel="noreferrer"
+            target="_blank"
+            className="p-3 hover:bg-gray-100 dark:hover:bg-zinc-700 rounded-2xl cursor-pointer flex items-center gap-3 text-gray-500 dark:text-white hover:text-black dark:hover:text-white"
+          >
+            <AiFillTwitterSquare className="text-2xl" />
+            <div className="text-sm">Twitter</div>
+          </a>
+        )}
+        {CONFIG.profile.artStation && (
+          <a
+            href={`https://www.artstation.com/@${CONFIG.profile.artStation}`}
+            rel="noreferrer"
+            target="_blank"
+            className="p-3 hover:bg-gray-100 dark:hover:bg-zinc-700 rounded-2xl cursor-pointer flex items-center gap-3 text-gray-500 dark:text-white hover:text-black dark:hover:text-white"
+          >
+            <AiTwotoneHeart className="text-2xl" />
+            <div className="text-sm">ArtStation</div>
           </a>
         )}
         {CONFIG.profile.email && (
