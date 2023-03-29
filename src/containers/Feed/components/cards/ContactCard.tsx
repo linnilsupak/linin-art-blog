@@ -7,8 +7,8 @@ import {
   AiFillLinkedin,
   AiOutlineYoutube,
   AiFillTwitterSquare,
-  AiTwotoneHeart,
 } from "react-icons/ai"
+import Image from 'next/image'
 
 const ContactCard: React.FC = () => {
   return (
@@ -66,7 +66,7 @@ const ContactCard: React.FC = () => {
             target="_blank"
             className="p-3 hover:bg-gray-100 dark:hover:bg-zinc-700 rounded-2xl cursor-pointer flex items-center gap-3 text-gray-500 dark:text-white hover:text-black dark:hover:text-white"
           >
-            <AiTwotoneHeart className="text-2xl" />
+            <Image src="/images/ArtStation.svg" width={20} height={20} alt="Art Station" className="pl-0.5"/>
             <div className="text-sm">ArtStation</div>
           </a>
         )}
