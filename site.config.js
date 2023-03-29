@@ -4,7 +4,7 @@ const CONFIG = {
     name: "Rin Linin Art",
     image: "/avatar.png", // If you want to create your own notion avatar, check out https://notion-avatar.vercel.app
     role: "Watercolor Artist",
-    bio: "I draw anime art with watercolor",
+    bio: "อัพบล็อคทุกๆ 2 สัปดาห์นะคะ",
     email: "alartyrlinnil@gmail.com",
     instagram: "lininart",
     youtube: "lininart",
@@ -13,12 +13,6 @@ const CONFIG = {
     github: "",
     linkedin: "",
   },
-  projects: [
-    {
-      name: `linin-art-blog`,
-      href: "https://github.com/linnilsupak/linin-art-blog",
-    },
-  ],
   // blog setting (required)
   blog: {
     title: "Rin Linin: Art",
