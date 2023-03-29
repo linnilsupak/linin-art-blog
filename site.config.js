@@ -21,7 +21,7 @@ const CONFIG = {
   ],
   // blog setting (required)
   blog: {
-    title: "Rin Linin",
+    title: "Rin Linin: Art",
     description: "Welcome to Rin Linin - blog!",
     theme: "auto", // ['light', 'dark', 'auto']
   },
