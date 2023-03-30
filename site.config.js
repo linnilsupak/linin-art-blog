@@ -19,7 +19,6 @@ const CONFIG = {
     description: "Welcome to Rin Linin - blog!",
     theme: "auto", // ['light', 'dark', 'auto']
   },
-
   // CONFIG configration (required)
   link: "https://linin-art.vercel.app/",
   since: 2023, // If leave this empty, current year will be used.

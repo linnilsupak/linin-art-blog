@@ -19,18 +19,16 @@ type Props = {
 
 const PageDetail: React.FC<Props> = ({ blockMap, data }) => {
   return (
-    <div className="m-auto max-w-4xl">
-      <NotionRenderer
-        recordMap={blockMap}
-        components={{
-          equation: Equation,
-          code: Code,
-          collection: Collection,
-          collectionRow: CollectionRow,
-        }}
-        mapPageUrl={mapPageUrl}
-      />
-    </div>
+    <NotionRenderer
+      recordMap={blockMap}
+      components={{
+        equation: Equation,
+        code: Code,
+        collection: Collection,
+        collectionRow: CollectionRow,
+      }}
+      mapPageUrl={mapPageUrl}
+    />
   )
 }
 

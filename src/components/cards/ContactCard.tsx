@@ -1,11 +1,11 @@
 import CONFIG from "site.config"
 import React from "react"
 import {
-  AiOutlineInstagram,
+  AiFillInstagram,
   AiOutlineGithub,
   AiOutlineMail,
   AiFillLinkedin,
-  AiOutlineYoutube,
+  AiFillYoutube,
   AiFillTwitterSquare,
 } from "react-icons/ai"
 import Image from 'next/image'
@@ -33,7 +33,7 @@ const ContactCard: React.FC = () => {
             target="_blank"
             className="p-3 hover:bg-gray-100 dark:hover:bg-zinc-700 rounded-2xl cursor-pointer flex items-center gap-3 text-gray-500 dark:text-white hover:text-black dark:hover:text-white"
           >
-            <AiOutlineYoutube className="text-2xl" />
+            <AiFillYoutube className="text-2xl" />
             <div className="text-sm">Youtube</div>
           </a>
         )}
@@ -44,7 +44,7 @@ const ContactCard: React.FC = () => {
             target="_blank"
             className="p-3 hover:bg-gray-100 dark:hover:bg-zinc-700 rounded-2xl cursor-pointer flex items-center gap-3 text-gray-500 dark:text-white hover:text-black dark:hover:text-white"
           >
-            <AiOutlineInstagram className="text-2xl" />
+            <AiFillInstagram className="text-2xl" />
             <div className="text-sm">instagram</div>
           </a>
         )}

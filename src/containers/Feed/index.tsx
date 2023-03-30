@@ -1,6 +1,6 @@
 import { useState } from "react"
 
-import * as Cards from "./components/cards"
+import * as Cards from "../../components/cards"
 import * as Lists from "./components/lists"
 
 import { TCategories, TPosts, TTags } from "@customTypes/index"
@@ -33,7 +33,6 @@ const Feed: React.FC<Props> = ({ categories, tags, posts }) => {
       </div>
       <div className="hidden lg:block lg:col-span-3">
         <Cards.ProfileCard />
-        <Cards.ServiceCard />
         <Cards.ContactCard />
         <Footer className="pt-4" />
       </div>
