@@ -92,6 +92,16 @@ const ContactCard: React.FC = () => {
             <div className="text-sm">linkedin</div>
           </a>
         )}
+        {CONFIG.profile.commissionMe && (
+          <div className="px-3 py-5">
+            <a href={CONFIG.profile.commissionMe}
+              rel="noreferrer"
+              target="_blank"
+              className="bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded dark:hover:bg-rose-700 dark:text-rose-500 dark:hover:text-white dark:border-rose-500 dark:hover:border-transparent">
+              สนใจติดต่องาน
+            </a>
+          </div>
+        )}
       </ul>
     </>
   )

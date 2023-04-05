@@ -12,6 +12,7 @@ const CONFIG = {
     twitter: "linin_art",
     github: "",
     linkedin: "",
+    commissionMe: "https://fastwork.co/user/lininart/cartoon-drawing-29602090"
   },
   // blog setting (required)
   blog: {
