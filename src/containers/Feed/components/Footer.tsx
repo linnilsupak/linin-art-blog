@@ -1,6 +1,7 @@
 import CONFIG from "@/site.config"
-import Link from "next/link"
-import React from "react"
+import { ThemeType } from '@/src/types'
+import Image from 'next/image'
+import React, { useState } from "react"
 
 const d = new Date()
 const y = d.getFullYear()
@@ -11,8 +12,10 @@ type Props = {
 }
 
 const Footer: React.FC<Props> = ({ className }) => {
+  const [theme, setTheme] = useState<ThemeType>()
   return (
     <div className={className}>
+      <Image src="/images/Written-By-Human-Not-By-AI-Badge.svg" width={131} height={42} alt="written by human" /><br/>
       <a
         href={`https://github.com/${CONFIG.profile.github}`}
         target="_blank"
