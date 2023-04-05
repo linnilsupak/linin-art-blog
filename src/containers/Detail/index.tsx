@@ -3,6 +3,7 @@ import useMermaidEffect from "./hooks/useMermaidEffect"
 import PostDetail from "./components/PostDetail"
 import PageDetail from "./components/PageDetail"
 import * as Cards from "../../components/cards"
+import Footer from '../Feed/components/Footer'
 
 const mapPageUrl = (id: string) => {
   return "https://www.notion.so/" + id.replace(/-/g, "")
@@ -31,6 +32,7 @@ const Detail: React.FC<Props> = ({ blockMap, data }) => {
           <div className="hidden lg:block lg:col-span-3">
             <Cards.ProfileCard />
             <Cards.ContactCard />
+            <Footer className="pt-4" />
           </div>
         </div>
       )}
