@@ -29,12 +29,12 @@ const Feed: React.FC<Props> = ({ categories, tags, posts }) => {
         <Lists.TagList className="block lg:hidden" data={tags} />
         <FeedHeader categories={categories} />
         <Lists.PostList q={q} posts={posts} />
-        <Footer className="block lg:hidden flex justify-center pb-8" />
+        <Footer className="block lg:hidden flex flex-col justify-center items-center pb-8" />
       </div>
       <div className="hidden lg:block lg:col-span-3">
         <Cards.ProfileCard />
         <Cards.ContactCard />
-        <Footer className="pt-4" />
+        <Footer className="pt-4 pl-3 flex flex-col justify-start items-start" />
       </div>
     </div>
   )

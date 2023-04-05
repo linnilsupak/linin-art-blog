@@ -15,7 +15,7 @@ const Footer: React.FC<Props> = ({ className }) => {
   const [theme, setTheme] = useState<ThemeType>()
   return (
     <div className={className}>
-      <Image src="/images/Written-By-Human-Not-By-AI-Badge.svg" width={131} height={42} alt="written by human" /><br/>
+      <Image className="mb-3" src="/images/Written-By-Human-Not-By-AI-Badge.svg" width={131} height={42} alt="written by human" />
       <a
         href={`https://github.com/${CONFIG.profile.github}`}
         target="_blank"

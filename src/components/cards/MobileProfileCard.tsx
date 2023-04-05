@@ -9,7 +9,17 @@ type Props = {
 const MobileProfileCard: React.FC<Props> = () => {
   return (
     <div className="block lg:hidden">
-      <div className="p-1 mb-3 dark:text-white">👤 Profile</div>
+      <div className="p-1 mb-3 dark:text-white flex justify-between items-end">
+        <div>👤 Profile</div>
+        {CONFIG.profile.commissionMe && (
+          <a href={CONFIG.profile.commissionMe}
+            rel="noreferrer"
+            target="_blank"
+            className="bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded dark:hover:bg-rose-700 dark:text-rose-500 dark:hover:text-white dark:border-rose-500 dark:hover:border-transparent">
+            สนใจติดต่องาน
+          </a>
+        )}
+        </div>
       <div className="p-2 rounded-2xl bg-white dark:bg-zinc-700 mb-4">
         <div className="flex items-center gap-2">
           <Image
